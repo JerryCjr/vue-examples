@@ -7,7 +7,7 @@
 * vue2.x
 * iframe
 
---
+--- 
 
 ## vue-phaser-babyfs 
 
@@ -15,7 +15,7 @@
 * vue-router
 * phaser3.x
 
---
+--- 
 
 ## vue-phaser-test
 
@@ -23,7 +23,7 @@
 * vue-router
 * phaser3.x
 
---
+--- 
 
 ## vue3-phaser3
 
