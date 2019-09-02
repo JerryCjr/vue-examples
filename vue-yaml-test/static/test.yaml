@@ -1,0 +1,5 @@
+a: "jerry"
+b: "test"
+obj:
+  name: "xiaohong"
+  b: { c: "red" }
