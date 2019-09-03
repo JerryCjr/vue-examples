@@ -1,6 +1,6 @@
 import Vue from "vue";
 import Router from "vue-router";
-import Game from "@/components/Game";
+import GameCenter from "@/components/GameCenter";
 import Demo from "@/components/Demo/Demo";
 import Logo from "@/components/Logo/Logo";
 import Shit from "@/components/Shit/Shit";
@@ -8,11 +8,12 @@ import Shit from "@/components/Shit/Shit";
 Vue.use(Router);
 
 export default new Router({
+  mode: "history",
   routes: [
     {
       path: "/",
-      name: "Game",
-      component: Game
+      name: "GameCenter",
+      component: GameCenter
     },
     {
       path: "/Demo",

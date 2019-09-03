@@ -1,6 +1,6 @@
 <template>
   <div class="root">
-    <h1>gameCenter</h1>
+    <h1>游戏大厅</h1>
     <p v-for="(item, index) in examList" :key="index" @click="go(item)">{{item.name}}</p>
   </div>
 </template>
