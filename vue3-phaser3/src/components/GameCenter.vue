@@ -1,7 +1,11 @@
 <template>
   <div class="root">
     <h1>游戏大厅</h1>
-    <p v-for="(item, index) in examList" :key="index" @click="go(item)">{{item.name}}</p>
+    <p
+      v-for="(item, index) in examList"
+      :key="index"
+      @click="go(item)"
+    >{{item.name}}</p>
   </div>
 </template>
 
@@ -27,7 +31,12 @@ export default {
   },
   methods: {
     go(_item) {
-      this.$router.push({ name: _item.key });
+      this.$router.push({
+        name: "game",
+        params: {
+          gameKey: _item.key
+        }
+      });
     }
   }
 };
